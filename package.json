@@ -1,0 +1,28 @@
+{
+  "name": "fiele-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "css-file-icons": "^0.1.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "express-handlebars": "^5.2.0",
+    "node": "^15.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matix7290/fiele-meneger.git"
+  },
+  "author": "Mateusz Olszewski 3Ic1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matix7290/fiele-meneger/issues"
+  },
+  "homepage": "https://github.com/matix7290/fiele-meneger#readme"
+}

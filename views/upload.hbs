@@ -1,0 +1,14 @@
+{{> menu}}
+
+<div class="grid-container">
+  <div class="left">
+      <h1>multiupdate</h1>
+  </div>
+  <div class="right">
+    <form class="uploader" enctype="multipart/form-data" method="POST" action="/upload">
+        <input type="file" multiple required accept="*/*" name="imageupload" style="font-size: 20px;">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
