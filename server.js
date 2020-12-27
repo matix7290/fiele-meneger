@@ -2,7 +2,7 @@
 
 var express = require("express")
 var app = express()
-const PORT = 3000
+var PORT = process.env.PORT || 3000
 var path = require("path")
 var bodyParser = require("body-parser")
 var formidable = require('formidable')
